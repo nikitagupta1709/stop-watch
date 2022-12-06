@@ -4,7 +4,7 @@ import BtnComponent from './Components/BtnComponent';
 import { useState } from 'react';
 
 function App() {
-  const [time, setTime] = useState({ms: 0, s: 56, m: 59, h: 0})
+  const [time, setTime] = useState({ms: 0, s: 0, m: 0, h: 0})
   const [interv, setInterv] = useState();
   const [status, setStatus] = useState(0);
 
